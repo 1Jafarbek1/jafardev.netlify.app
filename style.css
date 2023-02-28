@@ -11,7 +11,7 @@
 /* home */
 
 body {
-    background-color: #001D22;
+    background-color: #1F2028;
 }
 
 p {
@@ -48,11 +48,11 @@ span {
     width: 150px;
     height: 60px;
     line-height: 60px;
-    background-color: #012a31;
+    background-color: #1F2028;
     margin: 10px;
 }
 
-.button-box button a{
+.button-box button a {
     font-size: 25px;
     color: #9c2374;
 }
@@ -64,39 +64,39 @@ span {
 
 @media only screen and (max-width: 1300px) {
     body {
-        background-color: #001D22;
+        background-color: #1F2028;
     }
-    
+
     p {
         color: #fff;
     }
-    
+
     .home-nome {
         font-weight: 700;
         color: #fff;
         font-size: 50px;
         margin: 0 200px;
     }
-    
+
     .home-disc {
         margin: 0px 100px;
         font-size: 40px;
         font-weight: 600;
     }
-    
+
     span {
         color: #9c2374;
     }
-    
+
     .home-name {
         font-weight: 600;
         margin: 50px 0 0 0;
     }
-    
+
     .button-box {
         margin: 30px 230px;
     }
-    
+
     .button-box button {
         width: 150px;
         height: 60px;
@@ -104,12 +104,12 @@ span {
         background-color: #012a31;
         margin: 10px;
     }
-    
-    .button-box button a{
+
+    .button-box button a {
         font-size: 25px;
         color: #9c2374;
     }
-    
+
     .button-box button:hover {
         border-radius: 15px;
         background-color: #023e49;
@@ -120,37 +120,37 @@ span {
     body {
         background-color: #001D22;
     }
-    
+
     p {
         color: #fff;
     }
-    
+
     .home-nome {
         font-weight: 700;
         color: #fff;
         font-size: 30px;
         margin: 0 50px;
     }
-    
+
     .home-disc {
         margin: 0px 20px;
         font-size: 20px;
         font-weight: 600;
     }
-    
+
     span {
         color: #9c2374;
     }
-    
+
     .home-name {
         font-weight: 600;
         margin: 50px 0 0 0;
     }
-    
+
     .button-box {
         margin: 30px 30px;
     }
-    
+
     .button-box button {
         width: 100px;
         height: 30px;
@@ -158,14 +158,69 @@ span {
         background-color: #012a31;
         margin: 10px;
     }
-    
-    .button-box button a{
+
+    .button-box button a {
         font-size: 15px;
         color: #9c2374;
     }
-    
+
     .button-box button:hover {
         border-radius: 15px;
         background-color: #023e49;
     }
+}
+
+/* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+/* blogs */
+
+.button-area {
+    margin: 30px;
+    width: 130px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #012a31;
+}
+
+.button-area a {
+    color: #9c2374;
+    font-size: 15px;
+}
+
+.button-area:hover {
+    border-radius: 15px;
+    background-color: #023e49;
+}
+
+.card {
+    box-shadow: -11px 4px 16px 9px rgba(0, 0, 0, 0.2);
+    width: 800px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    background-image: linear-gradient(90deg, #6d9ee7 12.5%, #adbfe3 26.04%, #f0c9b4 39.06%, #f4ba6e 56.96%, #ffc178 70.83%, #e58334 92.71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    margin: 15px 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body p {
+    color: #adbfe3 ;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.post-date {
+    color: #adbfe3;
 }
