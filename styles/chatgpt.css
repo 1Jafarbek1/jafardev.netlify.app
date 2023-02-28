@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Tilt Neon', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #1F2028;
+}
+
+.button-area {
+    margin: 30px;
+    width: 130px;
+    height: 65px;
+    line-height: 65px;
+    background-color: #012a31;
+}
+
+.button-area a {
+    color: #9c2374;
+    font-size: 20px;
+}
+
+.button-area:hover {
+    border-radius: 15px;
+    background-color: #023e49;
+}
+
+h4 {
+    color: #FFA7C4;
+    font-size: 35px;
+    margin: 20px 30px;
+}
+
+.disciription {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.disciription h3 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #FFA7C4;
+}
+
+.post-date {
+    margin-bottom: 15px;
+}
+
+.disciription p {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.disciription img {
+    margin-bottom: 30px;
+    width: 1300px;
+}
+
+/* https://firebasestorage.googleapis.com/v0/b/javohi…=media&token=f5d0c305-ea24-4918-b599-64a0bc0afe62 */
+
+.disciription iframe {
+    width: 1500px;
+    height: 750px;
+    margin-top: 25px;
+}
+
+.img img{
+    width: 60px;
+    margin-right: 14px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
