@@ -63,8 +63,6 @@ h4 {
     width: 1300px;
 }
 
-/* https://firebasestorage.googleapis.com/v0/b/javohi…=media&token=f5d0c305-ea24-4918-b599-64a0bc0afe62 */
-
 .disciription iframe {
     width: 1500px;
     height: 750px;
@@ -76,4 +74,139 @@ h4 {
     margin-right: 14px;
     margin-left: 30px;
     border-radius: 50%;
+}
+
+@media only screen and (max-width: 1300px) {
+    .disciription h3 {
+        font-size: 30px;
+        margin: 10px 10px;
+    }
+
+    .post-date {
+        margin: 10px 10px;
+    }
+
+    .disciription img {
+        position: relative;
+        left: 125px;
+        width: 550px;
+        margin-top: 25px;
+    }
+
+    .disciription {
+        width: 800px;
+    }
+
+    .disciription p {
+        margin: 0 20px 15px 20px;
+    }
+
+    .img img {
+        width: 50px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .disciription h3 {
+        font-size: 20px;
+    }
+
+    .disciription h4 {
+        font-size: 25px;
+    }
+
+    .post-date {
+        margin: 10px 10px;
+    }
+
+    .disciription img {
+        position: relative;
+        left: 1px;
+        width: 290px;
+        margin-top: 25px;
+    }
+
+    .disciription {
+        width: 300px;
+    }
+
+    .disciription p {
+        font-size: 13px;
+        margin: 0 20px 15px 20px;
+    }
+
+    .img img {
+        width: 30px;
+        margin-left: 10px;
+    }
+    .button-area {
+        margin: 30px;
+        width: 125px;
+        height: 35px;
+        line-height: 35px;
+        background-color: #012a31;
+    }
+    
+    .button-area a {
+        color: #9c2374;
+        font-size: 15px;
+    }
+    
+    .button-area:hover {
+        border-radius: 15px;
+        background-color: #023e49;
+    }
+}
+
+@media (min-width: 355px) and (max-width:500px) {
+    .disciription h3 {
+        font-size: 20px;
+    }
+
+    .disciription h4 {
+        font-size: 25px;
+    }
+
+    .post-date {
+        margin: 10px 10px;
+    }
+
+    .disciription img {
+        position: relative;
+        left: 25px;
+        width: 290px;
+        margin-top: 25px;
+    }
+
+    .disciription {
+        width: 350px;
+    }
+
+    .disciription p {
+        font-size: 13px;
+        margin: 0 20px 15px 20px;
+    }
+
+    .img img {
+        width: 30px;
+        margin-left: 10px;
+    }
+    .button-area {
+        margin: 30px;
+        width: 125px;
+        height: 35px;
+        line-height: 35px;
+        background-color: #012a31;
+    }
+    
+    .button-area a {
+        color: #9c2374;
+        font-size: 15px;
+    }
+    
+    .button-area:hover {
+        border-radius: 15px;
+        background-color: #023e49;
+    }
 }
