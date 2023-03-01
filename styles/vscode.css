@@ -18,7 +18,7 @@ body {
     height: 65px;
     line-height: 65px;
     background-color: #012a31;
-    box-shadow: 1px 1px 3px 1px #333;
+    box-shadow: 1px 1px 10px 3px #000;
 }
 
 .button-area a {
